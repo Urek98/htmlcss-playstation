@@ -9,21 +9,17 @@
 }
 
 .nav-bar {
-    background-color: cornflowerblue;
     width: 100%;
 }
 
 .nav-bar ul {
     padding-inline-start: 0;
-    margin-top: 1rem; 
+    margin-top: 1rem;
 }
 
 ul {
     list-style: none;
 }
-
-font-
-
 
 .button-accedi {
     padding: 8px 32px;
@@ -42,4 +38,31 @@ font-
     border: 1px solid grey;
     background-color: none;
     border-radius: 16px;
+}
+
+/* jumbo */
+
+.jumbo{
+    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    
+}
+
+.padding-top-300{
+    padding-top: 200px;
+}
+
+.returnal-banner{
+    width: 200px;
+}
+
+.button-acquista{
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 50px;
 }
