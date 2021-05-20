@@ -1,0 +1,45 @@
+.logo-bar {
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.logo-bar img {
+    width: 80px;
+}
+
+.nav-bar {
+    background-color: cornflowerblue;
+    width: 100%;
+}
+
+.nav-bar ul {
+    padding-inline-start: 0;
+    margin-top: 1rem; 
+}
+
+ul {
+    list-style: none;
+}
+
+font-
+
+
+.button-accedi {
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+}
+
+.button-hidden {
+    padding: 8px 16px;
+    text-align: center;
+    color: grey;
+    border: 1px solid grey;
+    background-color: none;
+    border-radius: 16px;
+}
