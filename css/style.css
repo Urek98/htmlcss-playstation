@@ -66,3 +66,25 @@ ul {
     border: none;
     border-radius: 50px;
 }
+
+/* icone giochi */
+
+.games-thumb{
+    width: 100%;
+}
+
+.box-thumb{
+    border-radius: 20px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.box-thumb:hover{
+    border-color: blue;
+}
+
+.box-thumb-img{
+    border-radius: 20px;
+    border: 2px solid white;
+    overflow: hidden;
+}
