@@ -25,7 +25,7 @@ ul {
     list-style: none;
 }
 
-ul li i{
+ul li i {
     vertical-align: middle;
     color: grey;
 }
@@ -51,23 +51,22 @@ ul li i{
 
 /* jumbo */
 
-.jumbo{
+.jumbo {
     width: 100%;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    
 }
 
-.padding-top-300{
+.padding-top-300 {
     padding-top: 200px;
 }
 
-.returnal-banner{
+.returnal-banner {
     width: 200px;
 }
 
-.button-acquista{
+.button-acquista {
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
@@ -79,21 +78,21 @@ ul li i{
 
 /* icone giochi */
 
-.games-thumb{
+.games-thumb {
     width: 100%;
 }
 
-.box-thumb{
+.box-thumb {
     border-radius: 20px;
     border: 2px solid white;
     overflow: hidden;
 }
 
-.box-thumb:hover{
+.box-thumb:hover {
     border-color: blue;
 }
 
-.box-thumb-img{
+.box-thumb-img {
     border-radius: 20px;
     border: 2px solid white;
     overflow: hidden;
@@ -101,27 +100,46 @@ ul li i{
 
 /* sezione immagine console */
 
-.button-informazioni{
+.button-informazioni {
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     color: white;
-    background-color: rgb(0,112,209);
+    background-color: rgb(0, 112, 209);
     border: none;
     border-radius: 50px;
 }
 
-.playstation-5-thumb{
+.playstation-5-thumb {
     width: 100%;
 }
 
-.thumb-icon{
-    
+.thumb-icon {
     border-bottom: 2px solid white;
     opacity: 0.5;
 }
 
-.thumb-icon:hover{
-    border-bottom: 2px solid rgb(0,112,209) ;
+.thumb-icon:hover {
+    border-bottom: 2px solid rgb(0, 112, 209);
     opacity: 1;
+}
+
+/* jumbo it-takes-two*/
+
+.jumbo-takes-two {
+    width: 100%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* icon crash e tony hawk */
+
+.bg-1 {
+    background-color: rgb(31, 31, 31);
+}
+
+.item-icon {
+    width: 100%;
+    border-radius: 25px;
 }
