@@ -10,6 +10,10 @@
 
 .nav-bar {
     width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1001;
 }
 
 .nav-bar ul {
@@ -19,6 +23,11 @@
 
 ul {
     list-style: none;
+}
+
+ul li i{
+    vertical-align: middle;
+    color: grey;
 }
 
 .button-accedi {
@@ -46,6 +55,7 @@ ul {
     width: 100%;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: center;
     
 }
 
@@ -87,4 +97,31 @@ ul {
     border-radius: 20px;
     border: 2px solid white;
     overflow: hidden;
+}
+
+/* sezione immagine console */
+
+.button-informazioni{
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0,112,209);
+    border: none;
+    border-radius: 50px;
+}
+
+.playstation-5-thumb{
+    width: 100%;
+}
+
+.thumb-icon{
+    
+    border-bottom: 2px solid white;
+    opacity: 0.5;
+}
+
+.thumb-icon:hover{
+    border-bottom: 2px solid rgb(0,112,209) ;
+    opacity: 1;
 }
