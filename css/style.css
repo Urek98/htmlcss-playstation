@@ -164,3 +164,20 @@ ul li i {
     border-radius: 50px;
     font-weight: bold;
 }
+
+/* jumbo ps-now */
+
+.bg-ps-now{
+    background-color: rgb(15,22,52);
+}
+
+.button-esplora-now {
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
