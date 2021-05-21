@@ -181,3 +181,13 @@ ul li i {
     border-radius: 50px;
     font-weight: bold;
 }
+
+/* footer */
+
+footer{
+    background-color: rgb(0,67,156);
+}
+
+.ps-banner {
+    width: 100px;
+}
